@@ -6,6 +6,6 @@ led = Pin(2, Pin.OUT)
 while True:
     led.value(1)
     print("ESP32 dang chay Python!")
-    sleep(0.5)
+    sleep(1)
     led.value(0)
-    sleep(0.1)
+    sleep(1)
